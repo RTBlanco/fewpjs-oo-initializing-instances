@@ -1,10 +1,18 @@
 // Write your code here
-class Breakfast {
+// class Breakfast {
+//   constructor(food, drink){
+//     this.food = food;
+//     this.drink = drink;
+//   };
+// };
+
+// ES2019
+class Breakfast{
   constructor(food, drink){
-    this.food = food;
-    this.drink = drink;
-  };
-};
+    food = food;
+    drink = drink;
+  }
+}
 
 class Lunch {
   constructor(salad,soup,drink){
